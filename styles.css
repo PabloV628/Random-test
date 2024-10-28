@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.character {
+    margin-top: 20px;
+}
+
+span {
+    cursor: pointer;
+    font-weight: bold;
+    color: #007bff;
+}
+
+span:hover {
+    text-decoration: underline;
+} 
+
+/* Estilos para el cuerpo */
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el header lateral */
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.sidebar h2 {
+    margin: 0 0 20px 0;
+}
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.sidebar a.active {
+    color: gray;
+    text-decoration: underline;
+}

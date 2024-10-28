@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Personaje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header lateral -->
+    <div class="sidebar">
+        <h2>Menú</h2>
+        <a href="index.html">Index</a>
+        <a href="page-1.html" class = "active">Personaje</a>
+        <a href="page-2.html">Diseño</a>
+        <a href="page-3.html">Marca</a>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+        <h1>Generador de Personajes</h1>
+        <button onclick="randomizeCharacter()">Generar</button>
+        <div class="character">
+            <p>Edad: <span id="edad"></span></p>
+            <p>Género: <span id="genero"></span></p>
+            <p>Trabajo: <span id="trabajo"></span></p>
+            <p>Raza: <span id="raza"></span></p>
+            <p>Clase DND: <span id="clase"></span></p>
+            <p>Animal: <span id="animal"></span></p>
+            <p>Arma: <span id="arma"></span></p>
+            <p>Objeto: <span id="objetos"></span></p>
+            <p>Ambiente: <span id="ambiente"></span></p>
+            <p>Personalidad: <span id="personalidad"></span></p>
+            <p>Estéticas: <span id="esteticas"></span></p>
+            <p>Poses: <span id="poses"></span></p>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
